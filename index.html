@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Tracker</title>
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Task Tracker</h1>
+    </header>
+    <main>
+        <section id="task-form">
+            <h2>Adicionar Tarefa</h2>
+            <form id="add-task-form">
+                <input type="text" id="task-title" placeholder="Título da tarefa" required>
+                <textarea id="task-description" placeholder="Descrição da tarefa"></textarea>
+                <button type="submit">Adicionar Tarefa</button>
+            </form>
+        </section>
+        <section id="task-list">
+            <h2>Lista de Tarefas</h2>
+            <ul id="tasks"></ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Task Tracker</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
