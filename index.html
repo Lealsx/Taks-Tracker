@@ -19,6 +19,17 @@
                 <button type="submit">Adicionar Tarefa</button>
             </form>
         </section>
+        
+        <section id="filters">
+            <h2>Filtrar Tarefas</h2>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-status="all">Todas</button>
+                <button class="filter-btn" data-status="todo">A Fazer</button>
+                <button class="filter-btn" data-status="in-progress">Em Andamento</button>
+                <button class="filter-btn" data-status="done">Concluídas</button>
+            </div>
+        </section>
+        
         <section id="task-list">
             <h2>Lista de Tarefas</h2>
             <ul id="tasks"></ul>
@@ -27,6 +38,6 @@
     <footer>
         <p>&copy; 2024 Task Tracker</p>
     </footer>
-    <script src="app.js"></script>
+    <script src="src/js/frontend.js"></script>
 </body>
 </html>

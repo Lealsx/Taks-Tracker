@@ -1,0 +1,13 @@
+{
+  "name": "task-tracker",
+  "version": "1.0.0",
+  "description": "Task Tracker com backend em Node.js",
+  "main": "src/js/app.js",
+  "scripts": {
+    "start": "node src/js/app.js",
+    "dev": "node src/js/app.js"
+  },
+  "keywords": ["task", "tracker", "nodejs"],
+  "author": "",
+  "license": "ISC"
+}
